@@ -20,11 +20,10 @@
 
 我们正致力于发布以下内容：
 
-**数据集 (Data)**：涵盖图像、文本、音频三大模态的完整 UNICBench 数据集。 
-**评估工具包 (Evaluation Toolkit)**：包含确定性数值解析和分层报告的标准协议。 
-**模型评测 (Models)**：针对 45 款主流 MLLMs 的评测脚本与适配器配置。 
-**论文 (Paper)**：ArXiv 版本及补充材料。
-
+* **数据集 (Data)**：涵盖图像、文本、音频三大模态的完整 UNICBench 数据集。
+* **评估工具包 (Evaluation Toolkit)**：包含确定性数值解析和分层报告的标准协议。
+* **模型评测 (Models)**：针对 45 款主流 MLLMs 的评测脚本与适配器配置。
+* **论文 (Paper)**：ArXiv 版本及补充材料。
 ---
 
 ## 🖋️ 引用 (Citation)
@@ -35,7 +34,7 @@
 @inproceedings{rong2026unicbench,
   title={UNICBench: UNIfied Counting Benchmark for MLLM},
   author={Rong, Chenggang and Han, Tao and Zhao, Zhiyuan and Fan, Yaowu and Wan, Jia and Guo, Song and Yuan, Yuan and Gao, Junyu},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
   year={2026}
 }
 
