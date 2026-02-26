@@ -1,4 +1,4 @@
-<a href="https://github.com/your-username/UNICBench"><img src="https://img.shields.io/badge/Status-Coming%20Soon-orange" alt="Status"></a>
+<a href="https://github.com/rongchenggang/UNICBench"><img src="https://img.shields.io/badge/Status-Coming%20Soon-orange" alt="Status"></a>
 <a href="https://cvpr.thecvf.com/"><img src="https://img.shields.io/badge/Conference-CVPR%202026-blue" alt="Conference"></a>
 
 **"UNICBench: UNIfied Counting Benchmark for MLLM"** 的官方代码仓库。
