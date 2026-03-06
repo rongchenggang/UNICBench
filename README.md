@@ -24,7 +24,7 @@ Counting is a core capability for multimodal large language models (MLLMs), yet 
 * 📦 **Dataset**: [HuggingFace](https://huggingface.co/datasets/rongchenggang/UNICBench)
 * 🏆 **Leaderboard**: [Live Leaderboard](https://rongcg5620.github.io/UNICBench-Pages/)
 * 📄 **Paper**: [ArXiv](https://arxiv.org/abs/2603.00595)
-* 📧 **Contact**: unicbench@163.com
+* 📧 **Contact**: rongchenggang554@gmail.com
 
 ---
 
@@ -55,7 +55,7 @@ If you use our work in your research, please consider citing:
 
 ## 📮 Contact
 
-For any questions, please submit an issue or contact the authors at rongcg5620@mail.nwpu.edu.cn
+For any questions, please submit an issue or contact the authors at rongchenggang554@gmail.com
 
 ---
 
