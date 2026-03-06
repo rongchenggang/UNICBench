@@ -15,7 +15,7 @@ Official repository for **"UNICBench: UNIfied Counting Benchmark for MLLM"**.
 
 ## 🔍 Abstract
 
-Counting is a core capability for multimodal large language models (MLLMs), yet there is no unified counting dataset to rigorously evaluate this ability across image, text, and audio. We present UNICBench, a unified multimodal, multi level counting benchmark and evaluation toolkit with accurate ground truth, deterministic numeric parsing, and stratified reporting. The corpus comprises 5,300 images (5,508 QA), 872 documents (5,888 QA), and 2,069 audio clips (2,905 QA), annotated with a three level capability taxonomy and difficulty tags. Under a standardized protocol with fixed splits/prompts/seeds and modality specific matching rules, we evaluate 45 state-of-the-art MLLMs across modalities. Results show strong performance on some basic counting tasks but significant gaps on reasoning and the hardest partitions, highlighting long-tail errors and substantial headroom for improving general counting. UNICBench offers a rigorous and comparable basis for measurement and a public toolkit to accelerate progress.
+- Counting is a core capability for multimodal large language models (MLLMs), yet there is no unified counting dataset to rigorously evaluate this ability across image, text, and audio. We present UNICBench, a unified multimodal, multi level counting benchmark and evaluation toolkit with accurate ground truth, deterministic numeric parsing, and stratified reporting. The corpus comprises 5,300 images (5,508 QA), 872 documents (5,888 QA), and 2,069 audio clips (2,905 QA), annotated with a three level capability taxonomy and difficulty tags. Under a standardized protocol with fixed splits/prompts/seeds and modality specific matching rules, we evaluate 45 state-of-the-art MLLMs across modalities. Results show strong performance on some basic counting tasks but significant gaps on reasoning and the hardest partitions, highlighting long-tail errors and substantial headroom for improving general counting. UNICBench offers a rigorous and comparable basis for measurement and a public toolkit to accelerate progress.
 ---
 
 ## 🚀 Quick Links
@@ -29,11 +29,11 @@ Counting is a core capability for multimodal large language models (MLLMs), yet 
 
 ## 🛠️ Features
 
-* **Multi-modal Coverage**: Comprehensive evaluation across Image, Text, and Audio modalities
-* **Hierarchical Taxonomy**: Three-level capability classification with difficulty labels
-* **Standardized Protocol**: Fixed data splits, prompts, and evaluation metrics
-* **Deterministic Parsing**: Accurate numerical extraction and matching rules
-* **Public Toolkit**: Evaluation scripts and adapter configurations for 45+ MLLMs (coming soon)
+- Multi-modal Coverage: Comprehensive evaluation across Image, Text, and Audio modalities
+- Hierarchical Taxonomy: Three-level capability classification with difficulty labels
+- Standardized Protocol: Fixed data splits, prompts, and evaluation metrics
+- Deterministic Parsing: Accurate numerical extraction and matching rules
+- Public Toolkit: Evaluation scripts and adapter configurations for 45+ MLLMs (coming soon)
 
 ---
 
