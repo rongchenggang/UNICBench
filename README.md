@@ -1,34 +1,46 @@
-<a href="https://github.com/rongchenggang/UNICBench"><img src="https://img.shields.io/badge/Status-Coming%20Soon-orange" alt="Status"></a>
+<a href="https://github.com/rongchenggang/UNICBench"><img src="https://img.shields.io/badge/Status-Partially%20Released-orange" alt="Status"></a>
 <a href="https://cvpr.thecvf.com/"><img src="https://img.shields.io/badge/Conference-CVPR%202026-blue" alt="Conference"></a>
+<a href="https://huggingface.co/datasets/rongchenggang/UNICBench"><img src="https://img.shields.io/badge/🤗%20Dataset-Available-yellow" alt="Dataset"></a>
+<a href="https://rongcg5620.github.io/UNICBench-Pages/"><img src="https://img.shields.io/badge/🏆%20Leaderboard-Live-orange" alt="Leaderboard"></a>
 
-**"UNICBench: UNIfied Counting Benchmark for MLLM"** 的官方代码仓库。
+Official repository for **"UNICBench: UNIfied Counting Benchmark for MLLM"**.
 
-## 📣 最新消息 (Latest News)
+## 📣 Latest News
 
-* **[2026-02-25]** 仓库已创建！我们正在整理代码、数据集和评估工具包，敬请期待！
-* **[2026-02-21]** 我们的论文已被 **CVPR 2026** 接收！ 🎉
-
----
-
-## 🔍 摘要 (Abstract)
-
-计数是多模态大语言模型（MLLMs）的核心能力，但目前仍缺乏统一的计数数据集来跨图像、文本和音频模态对其进行严谨评估。 我们提出了 UNICBench，这是一个统一的多模态、多层级计数基准和评估工具包，具有准确的真实标签、确定性的数值解析和分层报告功能。 该语料库包含 5,300 张图像（5,508 个问答）、872 份文档（5,888 个问答）和 2,069 段音频（2,905 个问答），并标注了三级能力分类体系和难度标签。 在具有固定数据划分、提示词、随机种子以及特定模态匹配规则的标准协议下，我们跨模态评估了 45 个最先进的 MLLM。 结果显示，模型在一些基础计数任务上表现强劲，但在推理任务和最难的数据划分中存在显著差距，突显了长尾错误以及提升通用计数能力的巨大空间。 UNICBench 为测量提供了严谨且具可比性的基础，并提供了公共工具包以加速研究进展。 
+* **[2026-03-06]** 🎉 Dataset and leaderboard are now live! Check out our [HuggingFace dataset](https://huggingface.co/datasets/rongchenggang/UNICBench) and [leaderboard](https://rongcg5620.github.io/UNICBench-Pages/). Code and evaluation toolkit coming soon!
+* **[2026-02-25]** Repository created! We are organizing the code, dataset, and evaluation toolkit.
+* **[2026-02-21]** Our paper has been accepted to **CVPR 2026**! 🎉
 
 ---
 
-## 🛠️ 即将发布 (Upcoming Features)
+## 🔍 Abstract
 
-我们正致力于发布以下内容：
+Counting is a core capability of multimodal large language models (MLLMs), yet there remains a lack of unified counting datasets for rigorous evaluation across image, text, and audio modalities. We present UNICBench, a unified multi-modal, multi-level counting benchmark and evaluation toolkit with accurate ground-truth labels, deterministic numerical parsing, and hierarchical reporting capabilities. The corpus contains 5,300 images (5,508 QA pairs), 872 documents (5,888 QA pairs), and 2,069 audio clips (2,905 QA pairs), annotated with a three-level capability taxonomy and difficulty labels. Under a standardized protocol with fixed data splits, prompts, random seeds, and modality-specific matching rules, we evaluate 45 state-of-the-art MLLMs across modalities. Results show that models perform strongly on some basic counting tasks but exhibit significant gaps in reasoning tasks and the most challenging data splits, highlighting long-tail errors and substantial room for improving general counting capabilities. UNICBench provides a rigorous and comparable foundation for measurement and offers a public toolkit to accelerate research progress.
 
-* **数据集 (Data)**：涵盖图像、文本、音频三大模态的完整 UNICBench 数据集。
-* **评估工具包 (Evaluation Toolkit)**：包含确定性数值解析和分层报告的标准协议。
-* **模型评测 (Models)**：针对 45 款主流 MLLMs 的评测脚本与适配器配置。
-* **论文 (Paper)**：ArXiv 版本及补充材料。
 ---
 
-## 🖋️ 引用 (Citation)
+## 🚀 Quick Links
 
-如果您在研究中使用了我们的工作，请考虑引用：
+* 📦 **Dataset**: [HuggingFace](https://huggingface.co/datasets/rongchenggang/UNICBench)
+* 🏆 **Leaderboard**: [Live Leaderboard](https://rongcg5620.github.io/UNICBench-Pages/)
+* 📄 **Paper**: Coming soon on ArXiv
+* 📧 **Contact**: unicbench@163.com
+
+---
+
+## 🛠️ Features
+
+* **Multi-modal Coverage**: Comprehensive evaluation across Image, Text, and Audio modalities
+* **Hierarchical Taxonomy**: Three-level capability classification with difficulty labels
+* **Standardized Protocol**: Fixed data splits, prompts, and evaluation metrics
+* **Deterministic Parsing**: Accurate numerical extraction and matching rules
+* **Public Toolkit**: Evaluation scripts and adapter configurations for 45+ MLLMs (coming soon)
+
+---
+
+## 🖋️ Citation
+
+If you use our work in your research, please consider citing:
 
 ```bibtex
 @inproceedings{rong2026unicbench,
@@ -37,11 +49,16 @@
   booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
   year={2026}
 }
-
 ```
 
 ---
 
-## 📮 联系我们 (Contact)
+## 📮 Contact
 
-如有任何疑问，请提交 Issue 或联系作者。
+For any questions, please submit an issue or contact the authors at unicbench@163.com.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
