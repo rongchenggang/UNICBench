@@ -1,4 +1,4 @@
-<a href="https://github.com/rongchenggang/UNICBench"><img src="https://img.shields.io/badge/Status-Partially%20Released-orange" alt="Status"></a>
+<a href="https://github.com/rongchenggang/UNICBench"><img src="https://img.shields.io/badge/Status-Released-orange" alt="Status"></a>
 <a href="https://cvpr.thecvf.com/"><img src="https://img.shields.io/badge/Conference-CVPR%202026-blue" alt="Conference"></a>
 <a href="https://huggingface.co/datasets/rongchenggang/UNICBench"><img src="https://img.shields.io/badge/🤗%20Dataset-Available-yellow" alt="Dataset"></a>
 <a href="https://rongcg5620.github.io/UNICBench-Pages/"><img src="https://img.shields.io/badge/🏆%20Leaderboard-Live-orange" alt="Leaderboard"></a>
@@ -28,7 +28,7 @@ Counting is a core capability for multimodal large language models (MLLMs), yet 
 * 🏆 **Leaderboard**: [Live Leaderboard](https://rongcg5620.github.io/UNICBench-Pages/)
 * 📄 **Paper**: [ArXiv](https://arxiv.org/abs/2603.00595)
 * 🛠️ **Evaluation Toolkit**: [UNICBench-Evaluation/](UNICBench-Evaluation/)
-* 📧 **Contact**: unicbench@163.com
+* 📧 **Contact**: rongchenggang554@gmail.com
 
 ---
 
@@ -181,10 +181,11 @@ If you use our work in your research, please consider citing:
 
 ## 📮 Contact
 
-For any questions, please submit an issue or contact the authors at unicbench@163.com.
+For any questions, please submit an issue or contact the authors at rongchenggang554@gmail.com.
 
 ---
 
 ## 📜 License
+
 
 This project is licensed under the MIT License.
