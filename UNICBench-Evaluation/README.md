@@ -102,7 +102,7 @@ results/
 ## 🔧 Supported Models
 
 The toolkit supports 45+ MLLMs including:
-- OpenAI: GPT-4o, GPT-5, GPT-5-mini
+- OpenAI: GPT-4o, GPT-5,
 - Anthropic: Claude-4.5-sonnet
 - Google: Gemini-2.5-pro, Gemini-2.5-flash
 - Open Source: Qwen2.5-VL, InternVL3, GLM-4.5V, DeepSeek-V3.1
@@ -124,3 +124,4 @@ For more help, see the [Evaluation Guide](docs/evaluation_guide.md).
 For issues specific to the evaluation toolkit:
 - Open an issue in the main repository
 - Email: unicbench@163.com
+
